@@ -159,6 +159,7 @@
     display: flex;
     justify-content: center;
     height: 34px;
+    margin-bottom: 15px;
   }
   .fa-location-dot {
     display: flex;
@@ -277,5 +278,11 @@
     align-items: center;
     padding-right: 15px;
     color: #7e7e7e;
+  }
+  .icons__layout:hover {
+    color: #9356dc;
+  }
+  .fa-mobile-screen-button:hover {
+    color: #9356dc;
   }
 }/*# sourceMappingURL=style.css.map */
