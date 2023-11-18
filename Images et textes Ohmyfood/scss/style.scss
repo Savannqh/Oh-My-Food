@@ -32,6 +32,7 @@
     .navbar__location{
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         background-color: #eaeaea;
         padding-left: 125px;
         height: 50px;
@@ -42,6 +43,7 @@
         right: 255px;
         color: #353535;
         align-items: center;
+        margin-right: 10px;
         }
         .title__location{ 
         color: #515151;
@@ -150,6 +152,35 @@
     .fa-mobile-screen-button:hover{
         color: #9356dc;
     }
+    .grey__background__main{
+        display: flex;
+        background-color: #f6f6f6;
+        height: 1000px;
+        margin-top: 50px;
+        flex-direction: column;
+      
+    }
+    .card{
+        width: 100%;
+        margin-top: 90px;
+
+        img{
+            width: 100%;
+            border-radius: 15px;
+        }
+        
+        .title__card{
+
+        }
+
+        .paragraph__card{
+
+        }
+
+        .card__like{
+
+        }
+    }
 }
 /* Desktop */
 @media (min-width: 1024px){
@@ -170,8 +201,8 @@
     }
     .navbar__location{
         display: flex;
+        align-items: center;
         justify-content: center;
-        align-items: baseline;
         background-color: #eaeaea;
         height: 50px;
        
