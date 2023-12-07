@@ -29,6 +29,9 @@
     height: 35px;
     margin-bottom: 5px;
     }
+    .navbar__img{
+        width: 50%;
+    }
     .navbar__location{
         display: flex;
         justify-content: flex-start;
@@ -96,14 +99,14 @@
     .tabs__restaurant{
         display: flex;
         position: relative;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: flex-start;
         background: #f6f6f6;
         border-radius: 15px;
         width: 322px;
         height: 72px;
         box-shadow: 1px 5px 7px #c9c9c9;
         align-items: center;
-        justify-content: center;
         left: 16px;
         margin-bottom: 15px;
         .fa-mobile-screen-button{
@@ -123,23 +126,23 @@
     .tabs__layout{
         display: flex;
         position: relative;
-        justify-content: center;
+        justify-content: flex-start;
         background: #f6f6f6;
         border-radius: 15px;
         width: 322px;
         height: 72px;
         box-shadow: 1px 5px 7px #c9c9c9;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         left: 16px;
         margin-bottom: 15px;
     }
     .number__layout{
         display:flex;
-            position: absolute;
-            color: #9356dc;
-            font-size: 24px;
-            left: -14px;
+        position: absolute;
+        color: #9356dc;
+        font-size: 24px;
+        left: -14px;
     }
     .icons__layout{
         display: flex;
@@ -181,7 +184,7 @@
         height: 280px;
         margin-left: 17px;
     } 
-    img{
+    .card__img{
         width: 100%;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;   
