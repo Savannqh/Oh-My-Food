@@ -156,10 +156,9 @@
     .grey__background__main{
         display: flex;
         background-color: #f6f6f6;
-        height: 1500px;
+        height: 1350px;
         margin-top: 50px;
         flex-direction: column;
-      
     }
     .title__main{
         margin-left: 15px;
@@ -167,79 +166,88 @@
     }
     .cards{
         display: flex;
-        position: relative;
         flex-direction: column;
-        img{
-            width: 100%;
-            border-top-left-radius: 15%;
-            border-top-right-radius: 15%;   
-        }
-        .card__white__background{
-            height: 250px;
-            background-color: #FFFFFF;
-            width: 90%;
-            border-top-left-radius: 5%;
-            border-top-right-radius: 5%;
-            border-bottom-left-radius: 10%;
-            border-bottom-right-radius: 10%;
-            height: 280px;
-            margin-left: 17px;
-        }
-        .badge{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            color: #008766;
-            background-color: #99E2D0;
-            bottom: 220px;
-            left: 230px;
-            width: 80px;
-            height: 29px;
-            }
-            .badge__text{
-                display: flex;
-            }
-        }
-        .tabs__text{
-            display: flex;
-            flex-direction: column;
-        }
-        .title__card{
-            display: flex;
+        gap: 20px;
+    }    
+    .card{
+        position: relative;
+        height: 250px;
+        background-color: #FFFFFF;
+        width: 90%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        height: 280px;
+        margin-left: 17px;
+    } 
+    img{
+        width: 100%;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;   
+    }
+    .badge__1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        color: #008766;
+        background-color: #99E2D0;
+        top: 0px;
+        left: 210px;
+        width: 80px;
+        height: 29px;
+    }
+    .badge__2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        color: #008766;
+        background-color: #99E2D0;
+        top: 0px;
+        left: 210px;
+        width: 80px;
+        height: 29px;
+    }
+    .tabs__description{
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .title__card{
+        display: flex;
         margin-top: 10px;
         margin-left: 15px;
-        }
-        .paragraph__card{
+    }
+    .fa-regular{
+        position: absolute;
+        right: 38px;
+        bottom: 30px;
+    }
+    .fa-heart{
+        font-size: 25px;
+    }
+    .paragraph__card{
         display: flex;
         padding-bottom: 0px;
         margin-left: 15px;
-        }
-        .tabs__text{
-            display: flex;
-            flex-direction: column-reverse;
-        }
-        .tabs__icons{
-            position: absolute;
-            right: 38px;
-            bottom: 40px;
-        }
-        .footer{
-            display: flex;
-            flex-direction: row;
-            height: 500px;
-            background-color: #353535;
-            width: 100%;
-        }
+    }    
+    .footer{
+    display: flex;
+    flex-direction: row;
+    height: 186px;
+    background-color: #353535;
+    width: 100%;
     }
+}  
 
 /* Desktop */
 @media (min-width: 1024px){
-.body{
+    .body{
     width:100%;
     margin: 0 ;
     }
-
     .navbar__icons{
         display: flex;
         justify-content: center;
@@ -389,36 +397,48 @@
             gap: 100px;
             margin-left: 170px;
             padding-bottom: 5px;
-            img{
-                width: 100%;
-                height: 250px;
-                border-top-left-radius: 5%;
-                border-top-right-radius: 5%;   
-            }
-            .card__white__background{
-                height: 350px;
-                background-color: #FFFFFF;
-                border-top-left-radius: 5% ;
-                border-top-right-radius: 5% ;
-            }
-                .badge__text{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    position: absolute;
-                    color: #008766;
-                    background-color: #99E2D0;
-                    bottom: 0px;
-                    left: 560px;
-                    width: 80px;
-                    height: 29px;
-                }
         }
-        .tabs__description{
+        .card{
+            height: 350px;
+            background-color: #FFFFFF;
+            border-top-left-radius: 5% ;
+            border-top-right-radius: 5% ;
+
+            img{
+            width: 100%;
+            height: 250px;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;   
+            }
+            .badge__1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            color: #008766;
+            background-color: #99E2D0;
+            bottom: 0px;
+            left: 560px;
+            width: 80px;
+            height: 29px;
+            }
+            .badge__2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                color: #008766;
+                background-color: #99E2D0;
+                bottom: 0px;
+                left: 1150px;
+                width: 80px;
+                height: 29px;
+            }
+            .tabs__description{
             display: flex;
             flex-direction: row;
             height: 50px;
-
+            }
             .title__card{
             margin-bottom: 0px;
             margin-left: 15px;
@@ -431,9 +451,10 @@
             .fa-heart{
             font-size: 25px;
             }
-        }
-        .paragraph__card{
+            .paragraph__card{
             margin-left: 15px;
             margin-top: 10px;
-        }
+            }
+        }    
 }
+
