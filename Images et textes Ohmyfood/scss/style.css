@@ -229,6 +229,12 @@
   .fa-heart {
     font-size: 25px;
   }
+  .fa-heart:hover {
+    background: -webkit-linear-gradient(#9356dc, #ff79da);
+    fill: #008766;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .paragraph__card {
     display: flex;
     padding-bottom: 0px;
@@ -236,10 +242,33 @@
   }
   .footer {
     display: flex;
-    flex-direction: row;
-    height: 186px;
+    flex-direction: column;
+    height: 200px;
     background-color: #353535;
     width: 100%;
+  }
+  .title__footer {
+    height: 27px;
+    margin-left: 20px;
+    size: 15px;
+    font-family: "Shrikhand", serif;
+    color: white;
+  }
+  .link__footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+  }
+  .link__footer .fa-utensils {
+    margin-right: 17px;
+  }
+  .link__footer .fa-handshake-angle {
+    margin-right: 10px;
+  }
+  .link__footer {
+    margin-left: 20px;
   }
 }
 /* Desktop */
