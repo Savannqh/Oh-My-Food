@@ -353,14 +353,13 @@
   .tabs__restaurant {
     display: flex;
     position: relative;
-    justify-content: center;
+    justify-content: flex-start;
     background: #f6f6f6;
     border-radius: 15px;
     width: 322px;
     height: 72px;
     box-shadow: 1px 5px 7px #c9c9c9;
     align-items: center;
-    justify-content: center;
     top: 90px;
     right: 220px;
   }
@@ -380,14 +379,13 @@
   .tabs__layout {
     display: flex;
     position: relative;
-    justify-content: center;
+    justify-content: flex-start;
     background: #f6f6f6;
     border-radius: 15px;
     width: 322px;
     height: 72px;
     box-shadow: 1px 5px 7px #c9c9c9;
     align-items: center;
-    justify-content: center;
     top: 90px;
     right: 220px;
   }
