@@ -428,10 +428,12 @@
     padding-bottom: 5px;
   }
   .card {
-    height: 350px;
+    height: 345px;
     background-color: #FFFFFF;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
   }
   .card img {
     width: 100%;
@@ -467,6 +469,7 @@
   }
   .card .tabs__description {
     display: flex;
+    align-items: flex-end;
     flex-direction: row;
     height: 50px;
   }
