@@ -34,18 +34,14 @@
     }
     .navbar__location{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         background-color: #eaeaea;
-        padding-left: 125px;
         height: 50px;
         box-shadow: inset 5px 15px 5px -13px #cecece; 
    
         .fa-location-dot{
-        display: flex;
-        right: 255px;
         color: #353535;
-        align-items: center;
         margin-right: 10px;
         }
         .title__location{ 
@@ -234,10 +230,10 @@
     font-size: 25px;
     }
     .fa-heart:hover{
-        background: -webkit-linear-gradient( #9356dc, #ff79da);
-        fill: #008766;
-        -webkit-background-clip:text;
-        -webkit-text-fill-color:transparent;
+        -webkit-background-clip: text;
+        font-weight: 600;
+        background-image: linear-gradient(#9356dc, #ff79da);
+        -webkit-text-fill-color: transparent;
     }
     .paragraph__card{
         display: flex;
@@ -250,6 +246,10 @@
     height: 200px;
     background-color: #353535;
     width: 100%;
+    }
+    .test__footer{
+        display: flex;
+        flex-direction: column;
     }
     .title__footer{
         height: 27px;
@@ -489,10 +489,10 @@
             font-size: 25px;
             }
             .fa-heart:hover{
-                background: -webkit-linear-gradient( #9356dc, #ff79da);
-                fill: #008766;
-                -webkit-background-clip:text;
-                -webkit-text-fill-color:transparent;
+            -webkit-background-clip: text;
+            font-weight: 600;
+            background-image: linear-gradient(#9356dc, #ff79da);
+            -webkit-text-fill-color: transparent;
             }
             .paragraph__card{
             margin-left: 15px;
@@ -501,25 +501,40 @@
         }    
     .footer{
         background-color: #353535;
-      
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        height: 114px;
     }
     .title__footer{
-        font-family: 'Shrikhand', serif;
+        margin-right: 30px;
+        display: flex;
+        font-family: "Shrikhand", serif;
         color: white;
-        
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .all__link__footer{
+        margin-right: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
     }
     .link__footer{
         color: white;
-        
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 15px;
         .fa-utensils{
-            
+            margin: 10px;
         }
         .fa-handshake-angle{
-            
+        margin: 10px;
         }
-    }
-    .link__footer{
-      
     }
 }
 
