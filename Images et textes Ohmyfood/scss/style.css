@@ -12,9 +12,14 @@
 }
 
 /* Small devices */
-@media (max-width: 375px) {
-  .body {
-    width: 100% margin 0;
+@media (max-width: 1023px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    margin: 0;
   }
   .layout {
     display: flex;
@@ -28,6 +33,7 @@
     display: flex;
     height: 35px;
     margin-bottom: 5px;
+    margin-top: 10px;
   }
   .navbar__img {
     width: 55%;
@@ -48,6 +54,11 @@
     color: #515151;
   }
   .grey__background {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     background-color: #f6f6f6;
     padding-top: 1px;
     height: 280px;
@@ -71,19 +82,17 @@
     border-radius: 35px;
     height: 55px;
     width: 218px;
-    margin-left: 65px;
     box-shadow: 1px 5px 7px #c9c9c9;
-    margin-top: 35px;
   }
   .show__more .font__show__more {
     margin-left: 15px;
-    padding-top: 15px;
   }
   .show__more:hover {
     background: linear-gradient(#ff79da, #ff79da);
     box-shadow: 1px 5px 14px #cecece;
   }
   .title__functioning {
+    margin-left: 20px;
     padding-top: 10px;
   }
   .tabs {
@@ -233,6 +242,7 @@
     font-weight: 600;
     background-image: linear-gradient(#9356dc, #ff79da);
     -webkit-text-fill-color: transparent;
+    transition-delay: 0.15s;
   }
   .paragraph__card {
     display: flex;
@@ -276,8 +286,7 @@
 }
 /* Desktop */
 @media (min-width: 1024px) {
-  .body {
-    width: 100%;
+  body {
     margin: 0;
   }
   .navbar__icons {
@@ -285,6 +294,7 @@
     justify-content: center;
     height: 34px;
     margin-bottom: 15px;
+    margin-top: 20px;
   }
   .fa-location-dot {
     display: flex;
@@ -306,17 +316,19 @@
     color: #515151;
   }
   .grey__background {
-    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #f6f6f6;
     font-weight: 700;
-    height: 225px;
+    height: 260px;
   }
   .title {
     text-align: center;
   }
   .paragraph {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 0px;
   }
   .paragraph__font {
     font-weight: 400;
@@ -330,12 +342,11 @@
     height: 55px;
     width: 218px;
     box-shadow: 1px 5px 7px #c9c9c9;
-    margin-top: 35px;
-    margin-left: 655px;
+    margin-top: 25px;
   }
   .show__more .font__show__more {
     display: flex;
-    margin-left: 15px;
+    margin-left: 20px;
     padding-top: 15px;
   }
   .show__more:hover {
@@ -488,6 +499,7 @@
     font-weight: 600;
     background-image: linear-gradient(#9356dc, #ff79da);
     -webkit-text-fill-color: transparent;
+    transition-delay: 0.15s;
   }
   .card .paragraph__card {
     margin-left: 15px;
