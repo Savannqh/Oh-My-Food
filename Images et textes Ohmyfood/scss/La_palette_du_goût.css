@@ -15,6 +15,7 @@
 @media (max-width: 1023px) {
   body {
     margin: 0;
+    padding: 0;
   }
   .navbar__icons {
     justify-content: space-around;
@@ -31,5 +32,69 @@
   }
   .header__img {
     width: 100%;
+  }
+  section {
+    position: relative;
+    bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    height: 1307px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .title__section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .title__section .title__font__section {
+    font-family: "Shrikhand", serif;
+  }
+  .title__section .fa-heart {
+    margin-left: 50px;
+    font-size: x-large;
+  }
+  .title__section .fa-heart:hover {
+    -webkit-background-clip: text;
+    font-weight: 600;
+    background-image: linear-gradient(#9356dc, #ff79da);
+    -webkit-text-fill-color: transparent;
+    transition-delay: 0.15s;
+  }
+  .title__entry {
+    position: absolute;
+    border-bottom: solid;
+    border-bottom-color: #99e2d0;
+    top: 50px;
+    left: 15px;
+    width: 60px;
+    font-weight: 300;
+  }
+  .all__tabs__entry {
+    margin-top: 30px;
+  }
+  .tabs__entry {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 330px;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 100px;
+    box-shadow: 1px 5px 7px #c9c9c9;
+  }
+  .tabs__entry .first__row {
+    height: 40px;
+    padding-left: 15px;
+  }
+  .tabs__entry .second__row {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=La_palette_du_goût.css.map */
