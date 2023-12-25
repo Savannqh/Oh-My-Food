@@ -53,6 +53,9 @@
         color: #515151;
         }
     }
+    #name{
+        background-color: #eaeaea;
+    }
     .grey__background{
         display: flex;
         flex-direction: column;
@@ -85,7 +88,7 @@
         box-shadow: 1px 5px 7px #c9c9c9;
 
         .font__show__more{
-            margin-left: 15px;
+            margin-left: 20px;
         }
     }
     .show__more:hover{
@@ -98,24 +101,25 @@
     }
     .tabs{
         display: flex;
+        margin-right: 20px;
         flex-direction: column;
     }
     .tabs__restaurant{
         display: flex;
         position: relative;
         flex-direction: row;
-        justify-content: flex-start;
         background: #f6f6f6;
         border-radius: 15px;
-        width: 322px;
+        width: 100%;
+        margin-right: 35px;
         height: 72px;
         box-shadow: 1px 5px 7px #c9c9c9;
-        align-items: center;
-        left: 16px;
         margin-bottom: 15px;
+        align-items: center;
         .fa-mobile-screen-button{
             display: flex;
             align-items: center;
+            margin-left: 35px;
             padding-right: 15px;
             color: #7e7e7e;
         }
@@ -127,19 +131,21 @@
             left: -14px;
         }
     }
+    .icons__layout{
+        margin-left: 35px;
+    }
     .tabs__layout{
         display: flex;
         position: relative;
-        justify-content: flex-start;
+        flex-direction: row;
         background: #f6f6f6;
         border-radius: 15px;
-        width: 322px;
+        width: 100%;
+        margin-right: 35px;
         height: 72px;
         box-shadow: 1px 5px 7px #c9c9c9;
-        align-items: center;
-        justify-content: flex-start;
-        left: 16px;
         margin-bottom: 15px;
+        align-items: center;
     }
     .number__layout{
         display:flex;
@@ -195,19 +201,7 @@
         object-fit: cover;
         height: 199.69px;
     }
-    .badge__1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        color: #008766;
-        background-color: #99E2D0;
-        top: 0px;
-        left: 210px;
-        width: 80px;
-        height: 29px;
-    }
-    .badge__2{
+    .badge{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -249,7 +243,7 @@
         padding-bottom: 0px;
         margin-left: 15px;
     }    
-    .footer{
+    footer{
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -374,15 +368,13 @@
         height: 72px;
         box-shadow: 1px 5px 7px #c9c9c9;
         align-items: center;
-        top: 90px;
-        right: 220px;
        
         .fa-mobile-screen-button{
         display: flex;
         align-items: center;
         padding-right: 15px;
         color: #7e7e7e;
-            
+        margin-left: 20px;
         }
         .bi-1-circle-fill{
         display:flex;
@@ -392,18 +384,19 @@
         left: -14px;
         }
         }
+        .icons__layout{
+            margin-left: 20px;
+        }
         .tabs__layout{
-        display: flex;
-        position: relative;
-        justify-content: flex-start;
-        background: #f6f6f6;
-        border-radius: 15px;
-        width: 322px;
-        height: 72px;
-        box-shadow: 1px 5px 7px #c9c9c9;
-        align-items: center;
-        top: 90px;
-        right: 220px;
+            display: flex;
+            position: relative;
+            justify-content: flex-start;
+            background: #f6f6f6;
+            border-radius: 15px;
+            width: 322px;
+            height: 72px;
+            box-shadow: 1px 5px 7px #c9c9c9;
+            align-items: center;
         }
         .number__layout{
         display:flex;
@@ -436,19 +429,15 @@
          }
         .cards{
             display: grid;
-            grid-template-columns: 490px 490px;
-            gap: 100px;
+            grid-template-columns: repeat(2,1fr);
             margin-left: 170px;
             padding-bottom: 5px;
         }
         .card{
+            position: relative;
             height: 345px;
             background-color: #FFFFFF;
-            border-top-left-radius: 5% ;
-            border-top-right-radius: 5% ;
-            border-bottom-left-radius: 5%;
-            border-bottom-right-radius: 5%;
-
+            border-radius: 5%;
             img{
             width: 100%;
             height: 250px;
@@ -456,29 +445,18 @@
             border-top-right-radius: 5%;  
             object-fit: cover; 
             }
-            .badge__1{
+            .badge{
             display: flex;
             justify-content: center;
             align-items: center;
             position: absolute;
             color: #008766;
             background-color: #99E2D0;
-            bottom: 0px;
-            left: 560px;
+            top: 5
+            px;
+            right: 20px;
             width: 80px;
             height: 29px;
-            }
-            .badge__2{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                color: #008766;
-                background-color: #99E2D0;
-                bottom: 0px;
-                left: 1150px;
-                width: 80px;
-                height: 29px;
             }
             .tabs__description{
             display: flex;
@@ -510,7 +488,7 @@
             margin-top: 10px;
             }
         }    
-    .footer{
+    footer{
         background-color: #353535;
         display: flex;
         justify-content: flex-start;
