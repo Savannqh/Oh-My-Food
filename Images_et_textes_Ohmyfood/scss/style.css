@@ -427,14 +427,16 @@
     padding-top: 40px;
   }
   .cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 170px;
-    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
   }
   .card {
     position: relative;
     height: 345px;
+    width: 540px;
     background-color: #FFFFFF;
     border-radius: 5%;
   }
