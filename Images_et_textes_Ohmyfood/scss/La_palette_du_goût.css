@@ -11,6 +11,10 @@
   --tertiaire: #99e2d0;
 }
 
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
 /* Small devices */
 @media (max-width: 1023px) {
   body {
@@ -155,7 +159,7 @@
     background: linear-gradient(#ff79da, #ff79da);
     box-shadow: 1px 5px 14px #cecece;
   }
-  .footer {
+  footer {
     display: flex;
     flex-direction: column;
     height: 200px;
