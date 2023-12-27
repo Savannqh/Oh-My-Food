@@ -21,6 +21,9 @@ a:visited {
     margin: 0;
     padding: 0;
   }
+  .container {
+    background-color: #f6f6f6;
+  }
   .navbar__icons {
     justify-content: space-around;
     display: flex;
