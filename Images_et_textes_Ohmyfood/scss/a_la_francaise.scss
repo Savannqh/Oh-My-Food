@@ -9,11 +9,9 @@
     --secondaire: #ff79da;
     --tertiaire: #99e2d0;
 }
-
-a:visited {
-color: rgb(0, 0, 0);
+a:visited{
+    color: rgb(0, 0, 0); 
 }
-  
 /* Small devices */
 @media (max-width: 1023px){ 
     body{
