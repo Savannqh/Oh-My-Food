@@ -1,14 +1,16 @@
 //base
-@import "./base/_typography";
+@import "./base/_base.scss";
+@import "./base/_typography.scss";
 //components
 @import "./components/_button.scss";
 //layout
 @import "./layout/_footer.scss";
+@import "./layout/_header.scss";
 //pages
 //themes
-@import "./themes/theme";
+@import "./themes/_theme.scss";
 //abstracts
-@import "./abstracts/variables";
+@import "./abstracts/_variables.scss";
 //vendors
 @import "./a_la_francaise.scss";
 @import "./la_note_enchantee.scss";
@@ -16,10 +18,6 @@
 @import "./le_delice_des_sens.scss";
 /* Small devices */
 @media (max-width: 1023px){
-    body{
-    margin: 0;
-    padding: 0;
-    }
     .container{
         width: 100%;
         margin: 0;

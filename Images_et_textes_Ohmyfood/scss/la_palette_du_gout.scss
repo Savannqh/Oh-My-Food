@@ -1,24 +1,7 @@
 /* Small devices */
-@media (max-width: 1023px){ 
-    body{
-        margin: 0;
-        padding: 0;
-    }
+@media (max-width: 1023px){
     .container{
         background-color: #f6f6f6;
-    }
-    .navbar__icons{
-        justify-content: space-around;
-        display: flex;
-        align-items: center;
-        height: 35px;
-        margin-right: 110px;
-    }
-    .navbar__img{
-        width: 55%;
-    }
-    .header__img{
-        width: 100%;
     }
     section{
         position: relative;
