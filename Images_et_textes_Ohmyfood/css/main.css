@@ -1,3 +1,10 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
 /* Small devices */
 @media (max-width: 1023px) {
   .fa-arrow-left {
@@ -86,13 +93,6 @@
     margin: 10px;
   }
 }
-* {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  box-sizing: border-box;
-  list-style-type: none;
-}
-
 :root {
   --primaire: #9356dc;
   --secondaire: #ff79da;
@@ -397,13 +397,6 @@ a:visited {
     box-shadow: 1px 5px 14px #cecece;
   }
 }
-* {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  box-sizing: border-box;
-  list-style-type: none;
-}
-
 :root {
   --primaire: #9356dc;
   --secondaire: #ff79da;
@@ -967,19 +960,6 @@ a:visited {
     margin: 10px;
   }
 }
-* {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  box-sizing: border-box;
-  list-style-type: none;
-}
-
-:root {
-  --primaire: #9356dc;
-  --secondaire: #ff79da;
-  --tertiaire: #99e2d0;
-}
-
 a:visited {
   color: rgb(0, 0, 0);
 }
@@ -1348,13 +1328,6 @@ a:visited {
     margin: 10px;
   }
 }
-* {
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  box-sizing: border-box;
-  list-style-type: none;
-}
-
 :root {
   --primaire: #9356dc;
   --secondaire: #ff79da;
