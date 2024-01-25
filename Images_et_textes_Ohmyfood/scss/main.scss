@@ -1,31 +1,19 @@
 //base
-@import "./base/typography";
+@import "./base/_typography";
 //components
-@import "./components/button.scss";
+@import "./components/_button.scss";
 //layout
-@import "./layout/footer.scss";
+@import "./layout/_footer.scss";
 //pages
 //themes
-//utils
+@import "./themes/theme";
+//abstracts
+@import "./abstracts/variables";
 //vendors
 @import "./a_la_francaise.scss";
 @import "./la_note_enchantee.scss";
 @import "./la_palette_du_gout.scss";
 @import "./le_delice_des_sens.scss";
-*{
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    box-sizing: border-box;
-    list-style-type: none 
-}
-:root{
-    --primaire: #9356dc;
-    --secondaire: #ff79da;
-    --tertiaire: #99e2d0;
-}
-a:visited {
-    color: rgb(0, 0, 0); 
-}
 /* Small devices */
 @media (max-width: 1023px){
     body{
