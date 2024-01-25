@@ -1,0 +1,13 @@
+/* Small devices */
+@media (max-width: 1023px){ 
+.fa-arrow-left{
+    margin-right: 60px;
+}
+}
+
+/* Desktop */
+@media (min-width: 1024px){
+.fa-arrow-left{
+margin-left: 15px;
+}
+}

@@ -1,0 +1,78 @@
+/* Small devices */
+@media (max-width: 1023px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: #353535;
+    width: 100%;
+  }
+  .test__footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .title__footer {
+    height: 27px;
+    margin-left: 20px;
+    font-family: "Shrikhand", serif;
+    color: white;
+  }
+  .link__footer {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+  }
+  .link__footer .fa-utensils {
+    margin-right: 17px;
+  }
+  .link__footer .fa-handshake-angle {
+    margin-right: 10px;
+  }
+  .link__footer {
+    margin-left: 20px;
+  }
+}
+/* Desktop */
+@media (min-width: 1024px) {
+  footer {
+    background-color: #353535;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    height: 114px;
+  }
+  .title__footer {
+    margin-right: 30px;
+    display: flex;
+    font-family: "Shrikhand", serif;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .all__link__footer {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .link__footer {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px;
+  }
+  .link__footer .fa-utensils {
+    margin: 10px;
+  }
+  .link__footer .fa-handshake-angle {
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */
