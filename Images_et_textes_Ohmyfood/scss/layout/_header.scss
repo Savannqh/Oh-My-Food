@@ -1,3 +1,5 @@
+/* Small devices */
+@media (max-width: 1023px){
 .navbar__icons{
     justify-content: space-around;
     display: flex;
@@ -10,4 +12,5 @@
 }
 .header__img{
     width: 100%;
+}
 }
